@@ -1,0 +1,27 @@
+MVC
+- model: cac thu lien quan den db: truy xuat db, them sua xoa du lieu.
+- view: chi de hien thi len man hinh
+- controller: xu ly logic
+
+
+
+
+app/http/Controller: Cac phan lien quan den controller
+app/http/Middleware: No se nam o giua index va controller, tac dung la de xac thuc nguoi dung, validate input, ...
+
+database/migration: tao table
+database/ seeders + factory: tao ngau nhien data cho table
+
+public
+
+resource: code se nam trong day, css, js, view
+
+routes: cac duong dan toi thu muc
+    api: domain.com/api/doc
+    web: domain.com/doc/
+
+
+storege/log: Khi ma loi thi no se luu log error trong day
+
+webpack.mix.js: laravel mix: ho tro convert scss -> scc, ho tro copy file, gop file css, js, ...
+
